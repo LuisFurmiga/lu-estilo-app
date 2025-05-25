@@ -1,0 +1,14 @@
+bcrypt==3.2.0
+fastapi
+httpx
+passlib[bcrypt]
+psycopg2-binary
+pydantic[email]
+pytest-asyncio
+pytest
+python-dotenv
+python-jose
+sentry-sdk[fastapi]
+sqlalchemy-utils
+sqlalchemy
+uvicorn

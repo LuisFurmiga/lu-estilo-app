@@ -1,0 +1,6 @@
+CREATE DATABASE luestilo
+  WITH ENCODING='UTF8'
+  OWNER=user
+  CONNECTION LIMIT=-1;
+
+CREATE DATABASE luestilo_test;
