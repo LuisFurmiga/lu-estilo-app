@@ -114,9 +114,10 @@ cd lu-estilo-app
 
 ```bash
 DATABASE_URL=postgresql://USER:PASSWORD@localhost:5432/luestilo
-SECRET_KEY = "Furmiga!"
-ALGORITHM = "HS256"
-EXPIRE_MINUTES = 30
+SECRET_KEY="Furmiga!QualAChaveSecreta?"
+ALGORITHM="HS256"
+EXPIRE_MINUTES=30
+SENTRY_DSN="LinkDoSentryAqui"
 ```
 
 3. Suba a aplicação com Docker:
